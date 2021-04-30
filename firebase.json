@@ -10,7 +10,7 @@
     ]
   },
   "hosting": {
-    "public": "public",
+    "public": "web/tetorica-box/build",
     "ignore": [
       "firebase.json",
       "**/.*",
