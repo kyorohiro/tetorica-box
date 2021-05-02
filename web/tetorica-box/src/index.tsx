@@ -1,7 +1,9 @@
 import React from 'react'
-import { render} from 'react-dom'
+import ReactDom from 'react-dom'
+import './style.css'
 
-const Hello = props => <p> Hello</p>;
-
+const Hello = React.createElement('p',{},'Hello React!!')
 const rootElement = document.getElementById("root")
-render(<Hello/>, rootElement)
+ReactDom.render(Hello, rootElement)
+
+
