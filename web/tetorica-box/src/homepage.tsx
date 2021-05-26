@@ -20,8 +20,12 @@ function MyHome() {
 
     return (
         <div>
-            <h1>MyHome</h1>
+            <h1>MyHome1</h1>
             <input type="button" value="Loout" onClick={doClick}></input>
+            <h1>Upload File</h1>
+            <form>
+                <input type="file"></input>
+            </form>
         </div>
     )
 }
